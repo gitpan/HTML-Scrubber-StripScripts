@@ -1,5 +1,5 @@
 NAME
-    HTML::Scrubber::StripScripts - strip scripting from HTML
+    HTML::Scrubber::StripScripts - Strip scripting from HTML
 
 SYNOPSIS
        use HTML::Scrubber::StripScripts;

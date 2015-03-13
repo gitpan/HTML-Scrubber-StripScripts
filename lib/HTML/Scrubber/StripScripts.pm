@@ -2,11 +2,11 @@ package HTML::Scrubber::StripScripts;
 use strict;
 
 use vars qw($VERSION);
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 =head1 NAME
 
-HTML::Scrubber::StripScripts - strip scripting from HTML
+HTML::Scrubber::StripScripts - Strip scripting from HTML
 
 =head1 SYNOPSIS
 
@@ -255,7 +255,7 @@ sub new {
                         'vspace' => $re{'size'},
                         'align'  => $re{'word'},
                       },
-      ( $cfg{Whole_document} ? 
+      ( $cfg{Whole_document} ?
         ( 'body'  => { 'bgcolor'    => $re{'color'},
                         @background,
                         'link'       => $re{'color'},
@@ -321,4 +321,3 @@ under the same terms as Perl itself.
 =cut
 
 1;
-
